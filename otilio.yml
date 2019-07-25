@@ -16,6 +16,9 @@ otilio:
   # SNMP community
   community: "public"
 
+  # Region
+  region: "Busan"
+
   # oids to query
   # (the starting dot is intended)
   oids:

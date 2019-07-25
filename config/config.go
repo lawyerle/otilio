@@ -15,6 +15,7 @@ type Config struct {
 	AuthPassword string              `config:"authpass"`
 	PrivPassword string              `config:"privpass"`
 	Version      string              `config:"version"`
+	Region       string              `config:"region"`
 	OIDs         []map[string]string `config:"oids"`
 }
 

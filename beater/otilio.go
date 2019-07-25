@@ -101,6 +101,7 @@ func (bt *Otilio) Run(b *beat.Beat) error {
 						"@timestamp": common.Time(time.Now()),
 						"type":       b.Name,
 						"snmp.host":  host,
+						"region":  bt.config.Region,
 					}
 					for _, v := range r.Variables {
 						var value interface{}
